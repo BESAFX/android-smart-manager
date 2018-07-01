@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">المدير الذكي</string>
+    <string name="rest_url">https://ararhni.herokuapp.com</string>
+    <string name="title_activity_home">الرئيسية</string>
+    <string name="navigation_drawer_open">فتح القائمة الجانبية</string>
+    <string name="navigation_drawer_close">إغلاق القائمة الجانبية</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="menu_item_company">بيانات الشركة</string>
+    <string name="menu_item_region">سجل المناطق</string>
+    <string name="menu_item_branch">سجل الفروع</string>
+    <string name="menu_item_department">سجل الأقسام</string>
+    <string name="menu_item_person">سجل المستخدمين</string>
+    <string name="menu_item_team">سجل الصلاحيات</string>
+    <string name="menu_item_task_outgoing">المهام الصادرة</string>
+    <string name="menu_item_task_incoming">المهام الواردة</string>
+    <string name="menu_item_ticket">نماذج المغادرة</string>
+    <string name="menu_item_notice">أذون الصرف</string>
+    <string name="action_logout">خروج</string>
+    <string name="txt_regions">المناطق</string>
+    <string name="txt_employees">الموظفين</string>
+    <string name="txt_departments">الأقسام</string>
+    <string name="txt_branches">الفروع</string>
+    <string name="persons_count">عدد المستخدمين: </string>
+    <string name="login_input_email">البريد الإلكتروني</string>
+    <string name="login_input_password">كلمة المرور</string>
+    <string name="login_btn_login">دخول</string>
+    <string name="txt_pending">تحت التنفيذ</string>
+    <string name="txt_auto">المغلقة تلقائي</string>
+    <string name="txt_archive">الارشيف</string>
+    <string name="txt_add_region">منطقة جديدة</string>
+    <string name="txt_name">الأسم</string>
+    <string name="txt_address">العنوان</string>
+    <string name="txt_save">حفظ</string>
+    <string name="txt_manager">المدير</string>
+    <string name="txt_delete">حذف</string>
+</resources>

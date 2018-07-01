@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_company"
+            android:icon="@drawable/ic_menu_company"
+            android:title="@string/menu_item_company" />
+        <item
+            android:id="@+id/nav_region"
+            android:icon="@drawable/ic_menu_region"
+            android:title="@string/menu_item_region" />
+        <item
+            android:id="@+id/nav_branch"
+            android:icon="@drawable/ic_menu_branch"
+            android:title="@string/menu_item_branch" />
+        <item
+            android:id="@+id/nav_department"
+            android:icon="@drawable/ic_menu_department"
+            android:title="@string/menu_item_department" />
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/ic_menu_person"
+            android:title="@string/menu_item_person" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_menu_team"
+            android:title="@string/menu_item_team" />
+    </group>
+
+    <group
+        android:id="@+id/menu2"
+        android:checkableBehavior="single">
+
+        <item android:title="@string/menu_item_task_outgoing">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_pending_outgoing_tasks"
+                    android:icon="@drawable/ic_flag"
+                    android:title="@string/txt_pending" />
+                <item
+                    android:id="@+id/nav_auto_outgoing_tasks"
+                    android:icon="@drawable/ic_battery_alert"
+                    android:title="@string/txt_auto" />
+                <item
+                    android:id="@+id/nav_archive_outgoing_tasks"
+                    android:icon="@drawable/ic_archive"
+                    android:title="@string/txt_archive" />
+            </menu>
+
+        </item>
+
+        <item android:title="@string/menu_item_task_incoming">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_pending_incoming_tasks"
+                    android:icon="@drawable/ic_flag"
+                    android:title="@string/txt_pending" />
+                <item
+                    android:id="@+id/nav_auto_incoming_tasks"
+                    android:icon="@drawable/ic_battery_alert"
+                    android:title="@string/txt_auto" />
+                <item
+                    android:id="@+id/nav_archive_incoming_tasks"
+                    android:icon="@drawable/ic_archive"
+                    android:title="@string/txt_archive" />
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/nav_ticket"
+            android:icon="@drawable/ic_menu_ticket"
+            android:title="@string/menu_item_ticket" />
+
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_menu_notice"
+            android:title="@string/menu_item_notice" />
+
+    </group>
+
+</menu>
